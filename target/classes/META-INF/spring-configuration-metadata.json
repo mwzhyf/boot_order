@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.zyx.order.config.DynamicDataSourceConfig",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.initial-size."
+    },
+    {
+      "name": "spring.datasource.max-idle",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.max-idle."
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.max-wait."
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.min-idle."
+    }
+  ],
+  "hints": []
+}
